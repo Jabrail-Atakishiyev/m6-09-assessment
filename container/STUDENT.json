@@ -1,0 +1,19 @@
+{
+  "first_name": "Jabrail",
+  "last_name": "Atakishiyev",
+  "team": "jabrail-atakishiyev",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26n",
+    "imgsz": 640,
+    "epochs_total": 50,
+    "tricks": [
+      "strong_augmentation",
+      "cos_lr",
+      "weight_decay",
+      "early_stopping",
+      "4_datasets_pooled"
+    ]
+  },
+  "notes": "yolo26n imgsz=640 batch=4, 3 zero-overhead techniques: aug+cos_lr+weight_decay, patience=10"
+}
